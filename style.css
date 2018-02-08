@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'antonioregular';
+    src: url('antonio/antonio-regular-webfont.eot');
+    src: url('antonio/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('antonio/antonio-regular-webfont.woff2') format('woff2'),
+         url('antonio/antonio-regular-webfont.woff') format('woff'),
+         url('antonio/antonio-regular-webfont.ttf') format('truetype'),
+         url('antonio/antonio-regular-webfont.svg#antonioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+
+    font-family: 'antoniolight';
+    src: url('antonioLight/antonio-light-webfont.eot');
+    src: url('antonioLight/antonio-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('antonioLight/antonio-light-webfont.woff2') format('woff2'),
+         url('antonioLight/antonio-light-webfont.woff') format('woff'),
+         url('antonioLight/antonio-light-webfont.ttf') format('truetype'),
+         url('antonioLight/antonio-light-webfont.svg#antoniolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* --MY CODE-- */
+
+body {
+	  /* Location of the image */
+	background-image:url("photo/bg.jpg");
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+h1 {
+	margin: 10px 25%;
+	padding: 4px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size:36px;
+	font-family:"antonioregular", Courier, monospace;	
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	color:white;
+	font-family:"antoniolight", Geneva, sans-serif;
+	margin: 10px 15%;
+	padding:2%;
+}
+
+.cart, .proj {
+	background: white;
+	text-align: center;
+	font-family:"antoniolight", Geneva, sans-serif;
+	font-size: 18px;
+	color:white;
+	margin: 10px 15%;
+	padding:2%;
+}
+
+a {
+	border-right: solid 2px #6D7EDC;
+	padding-right: 5px;
+}
+
+a:last-child {
+	border-right:none;
+	padding-right: 0px;	
+}
